@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar-navbar {
+  display: flex;
+  margin-left: 1vw;
+  align-items: center;
+  fill: #FFF;
+  height: 5vh;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.10);
+}
+
+#hero-image {
+  display: flex;
+  justify-content: center;
+  padding-top: 1vh;
+}
+
+#hero-after-img {
+  text-align: center;
+  font-family: Poppins;
+}
+
+#hero-h1 {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 36px;
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+}
+#hero-h1 > h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#hero-p {
+  font-size: 16px;
+}
+
+.cards {
+  width: 175px;
+  font-size: 12px;
+  position: relative;
+  margin: 20px 20px 100px;
+}
+
+.card-image {
+  height: 235px;
+  width: 135px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.image--badge {
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.gray-card-stats {
+  color: gray;
+  margin-top: 8px;
+}
+
+.card-lower-span {
+  font-weight: bold;
+}
+
+.card-lower {
+  margin-top: 1vh;
+  width: max-content;
+}
+
+.card-lists {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 100px;
+  overflow-x: auto;
+}
